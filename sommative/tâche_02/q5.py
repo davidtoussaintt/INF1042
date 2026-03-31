@@ -1,3 +1,10 @@
+#David Toussaint
+#Ce programme est un jeux de roche, papier, ciseaux contre l'ordi qui choisi un des symbol au hasard en utilisant random.randint
+#J'ai aussi mis presque tout dans un while loop pour ca va continuer a ce repeter lorsque rematch est egale a 1 (ce qui veut dire que le joueur
+# veut jouer encore) pour chaque gagne/defaite/egale etc j'ai ajoute +1 pour que chaque partie il ajoute 1 dependant au resultat du match
+#J'aimerai aussi dire que j'avais deja fais cela avec Chase Curwin dans le club mais la partie de afficher les stats ou rejouer etait nouveau
+# et un peu un challenge car je voulais s'avoir comment je pourrais le faire plus simple et claire
+
 import random
 
 defaite = 0

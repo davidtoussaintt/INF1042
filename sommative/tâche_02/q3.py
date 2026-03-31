@@ -1,3 +1,5 @@
+#David Toussaint
+
 prix = int(input("Entrez le prix d'achat: "))
 def rabais(prix):
     if prix<50:
