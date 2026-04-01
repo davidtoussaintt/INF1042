@@ -33,7 +33,7 @@ while rematch == 1:
         print("Ordi a choisi ciseaux")
 
     if answer == ai_answer:
-        print("C'est egale")
+        print("C'est égale")
         egale = egale + 1
         parties = parties + 1
 
@@ -49,10 +49,10 @@ while rematch == 1:
 
     rematch = int(input("Est ce que tu veux continuer à jouer, 1 (oui) ou 2 (non): "))
 if rematch == 2:
-    print("Nombre de defaite: ", defaite)
+    print("Nombre de défaite: ", defaite)
     print("Nombre de vicoire: ", victoire)
-    print("Nombre d'egalite: ", egale)
-    print("Nombre de parties joue: ", parties)
+    print("Nombre d'égalité: ", egale)
+    print("Nombre de parties joué: ", parties)
 
 while rematch not in [1, 2]:
     rematch = int(input("Choix invalide. 1 ou 2: "))

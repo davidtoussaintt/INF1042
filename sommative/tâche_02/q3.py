@@ -1,4 +1,11 @@
 #David Toussaint
+# Ce programme demande le prix d'achat à l'utilisateur.
+# Il calcule un rabais selon le montant:
+# - 0% si le prix est inférieur à 50$
+# - 10% si le prix est entre 50$ et 100$
+# - 15% si le prix est supérieur à 100$
+# Ensuite, il calcule le prix après rabais, ajoute une taxe de 13%,
+# et affiche tous les résultats (prix initial, rabais, taxe, prix total).
 
 prix = int(input("Entrez le prix d'achat: "))
 def rabais(prix):
