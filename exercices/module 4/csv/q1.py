@@ -1,5 +1,5 @@
 import pandas as pd
 
-df = pd.read_csv(r"C:\Users\David\OneDrive\GitHub\INF1042\exercices\module 4\csv\fictitious_basketball_league_players_1200.csv")
+df = pd.read_csv("exercices/module 4/csv/fictitious_basketball_league_players_1200_v2 - fictitious_basketball_league_players_1200_v2.csv")
 
-print(df.head())
+print(df)
