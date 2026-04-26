@@ -1,0 +1,6 @@
+import pandas as pd
+
+df = pd.read_csv("exercices/module 4/csv/fictitious_basketball_league_players_1200_v2 - fictitious_basketball_league_players_1200_v2.csv")
+
+stats = df.groupby("position")["salary"].agg(["mean", "min", "max"])
+print(stats)
