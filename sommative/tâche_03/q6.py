@@ -69,7 +69,7 @@ print("Montant dépensé :", montant_max, "$")
 
 # 7. Crée un dictionnaire qui indique combien de fois chaque jeu a été acheté
 compteur_jeux = {}
-
+#En dictionnaire
 for achat in achats:
     client, jeu, plateforme, prix = achat
 

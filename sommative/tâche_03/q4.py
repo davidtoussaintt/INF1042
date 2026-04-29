@@ -16,5 +16,5 @@ for produit, quantite in inventaire.items():
     print(produit, ":", quantite)
 
 total_articles = sum(inventaire.values())
-
+#ajoute tout les valeurs
 print("Nombre total d'articles en stock :", total_articles)

@@ -5,7 +5,7 @@ ensemble_a = set(liste_a)
 ensemble_b = set(liste_b)
 
 print("Chanson uniques du liste A sont", ensemble_a)
-print("Chanson uniques du liste A sont", ensemble_b)
+print("Chanson uniques du liste B sont", ensemble_b)
 
 print("Chansons dans les deux listes :", ensemble_a & ensemble_b)
 

@@ -17,7 +17,7 @@ eleves = [
     {
         "nom": "Noah",
         "niveau": 10,
-        "activites": ["programmation", "robotique", "échecs"]
+        "activites": ["robotique", "échecs"]
     }
 ]
 print("Noms des élèves :")
@@ -30,7 +30,7 @@ for eleve in eleves:
         print(eleve["nom"])
 
 activites_uniques = set()
-
+#En set car il y a pas de dupes
 for eleve in eleves:
     for activite in eleve["activites"]:
         activites_uniques.add(activite)
@@ -42,7 +42,7 @@ eleve_max = eleves[0]
 for eleve in eleves:
     if len(eleve["activites"]) > len(eleve_max["activites"]):
         eleve_max = eleve
-
+#comparaison des length de chaque activite des eveles pour trouver qui a le plus
 print("Élève avec le plus d'activités :", eleve_max["nom"])
 
 compteur_robotique = 0
