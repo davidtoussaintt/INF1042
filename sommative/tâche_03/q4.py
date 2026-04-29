@@ -10,7 +10,7 @@ inventaire["marqueurs"] = 18
 inventaire["stylos"] = 30
 del inventaire["gommes"]
 
-print("Inventaire mis à jour :")
+print("Inventaire mis à jour :", inventaire)
 
 for produit, quantite in inventaire.items():
     print(produit, ":", quantite)
